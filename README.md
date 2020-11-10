@@ -1,5 +1,6 @@
 # 测评项目
-1. 金融数据爬虫（历史行情及数据可视化：Stock_Data.ipynb和实盘信息抓取：stock_market.ipynb） 
+1. 金融数据爬虫（历史行情及数据可视化：Stock_Data.ipynb和实盘信息抓取：stock_market.ipynb） ，auto.py文件是实时爬取股票交易数据的脚本，将在每天的9点30分
+   自动执行，自动爬取前一天的数据并保存到数据库中。code.text文件是爬取到的A股股票代码文件。
 
 2. 新冠疫情数据可视化（COVID19_DATA.ipynb）
 
