@@ -10,7 +10,7 @@ import datetime
 
 
 def auto():
-    with open("C:/code.txt", "r") as f:  # 打开文件
+    with open("/usr/local/code.txt", "r") as f:  # 打开文件
         data = f.read().replace("'", "")  # 读取文件
     today = datetime.date.today()
     yesterday = str(today - datetime.timedelta(days=1)).replace("-", "")
